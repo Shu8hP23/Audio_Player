@@ -1,0 +1,33 @@
+<h1>Playlist</h1>
+
+<ul>
+  <li><a [routerLink]="['/']">Home</a></li>
+  <li><a [routerLink]="['/music']">Playlist</a></li>
+</ul>
+<body>
+  <h4>Select a Song You would like to stream</h4>
+
+
+  <div class="tracks">
+    <div class="container">
+      <table>
+        <tr class="headings">
+          <th>ID</th>
+          <th>Name</th>
+          <th>Genre</th>
+          <th>Time</th>
+        </tr>
+        <tr *ngFor="let song of songs" (click) = "load(song.url)">
+          <td class="id">{{song.id}}</td>
+          <td class="title">{{song.name}}</td>
+          <td class="genre">{{song.Genre}}</td>
+          <td class="time">{{song.Time}}</td>
+        </tr>
+
+      </table>
+
+    </div>
+  </div>
+</body>
+
+<app-bottom></app-bottom>

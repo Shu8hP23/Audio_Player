@@ -1,0 +1,65 @@
+.tracks{
+  background-color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+ul {
+  padding: 10px;
+  margin: 0px;
+  list-style:none;
+  background-color: #00A7E1;
+  border-style: solid;
+}
+
+li{
+  padding:10px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  transition: color 0.2s;
+  color: white;
+}
+
+table{
+  width:100%;
+  font-size: 15px;
+
+}
+h4{
+  color:white;
+  text-align: center;
+  border-style: solid;
+
+}
+h1{
+  background-color: 	#ff8007;
+  font-size: 50px;
+  text-align: center;
+
+
+}
+.time{
+  margin: 10px;
+  padding: 10px;
+
+}
+tr:hover{
+  background-color:navajowhite;
+  font-size:150%;
+}
+
+th{
+  background:#142d4c;
+  font-size: 20px;
+  color:white;
+
+}
+
+
+

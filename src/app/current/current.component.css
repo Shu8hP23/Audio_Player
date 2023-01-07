@@ -1,0 +1,60 @@
+h1{
+  background-color: 	#ff8007;
+  font-size: 50px;
+  text-align: center;
+
+}
+ul {
+  padding: 10px;
+  margin: 0px;
+  list-style:none;
+  background-color: #00A7E1;
+}
+
+li{
+  padding:10px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  transition: color 0.2s;
+  color: white;
+}
+
+.card{
+  background-color:burlywood;
+  position:absolute;
+  display: flex;
+  left:42%;
+  top:30%;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.now_playing{
+  align-content: center;
+
+
+
+}
+
+.Now-top{
+  animation: rotation 8s infinite linear;
+  
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+

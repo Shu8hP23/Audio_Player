@@ -1,0 +1,23 @@
+.buttons{
+
+  background: rgba(24,24,27,0.8);
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  color:#00A7E1;
+  width: 100%;
+  align-items:center;
+  justify-content:space-evenly;
+  overflow-y: hidden;
+  float: left;
+  font-size: 50px;
+  transition-duration: 0.4s;
+}
+
+#back:hover,#forward:hover,#play_pause:hover{
+  color:white;
+  font-size:110%;
+
+}
+
