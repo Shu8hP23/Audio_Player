@@ -1,4 +1,5 @@
 Music Player (Web Application)
+
 • Developed a music player web app with Howler, a JavaScript audio library.
 
 • Howler access the files and plays the music from the catalog provided
