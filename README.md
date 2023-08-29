@@ -1,7 +1,10 @@
 Music Player (Web Application)
 • Developed a music player web app with Howler, a JavaScript audio library.
+
 • Howler access the files and plays the music from the catalog provided
+
 • The user has control over the music they would like to play with basic functions of play, pause, forward, and backward.
+
 • Technologies: Angular, Typescript, CSS, HTML, Howler
 
 
